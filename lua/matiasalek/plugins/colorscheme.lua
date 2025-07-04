@@ -20,6 +20,8 @@ return {
       styles = {
         sidebars = transparent and "transparent" or "dark",
         floats = transparent and "transparent" or "dark",
+        comments = { italic = false },
+        keywords = { italic = false },
       },
       on_colors = function(colors)
         colors.bg = bg
